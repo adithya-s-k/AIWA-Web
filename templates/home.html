@@ -1,0 +1,58 @@
+{%extends "base.html"%}
+
+{%block title%}WorkOut{%endblock%} 
+
+{%block head1%}
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("{{url_for('static', filename='Frame 2.png')}}");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top:20px;
+    }
+    button {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+    }
+
+</style>
+{%endblock%}
+
+{%block body%} 
+    <div>
+    <a href="/start_workout">
+        <button style="position:relative; padding-left:200px; padding-top:200px; margin-top:480px; margin-left:100px"></button>
+    </a>
+    </div>
+    <div>
+        <a href="/workout_select">
+            <button style="position:relative; padding-left:360px; padding-top:300px; margin-top:110px; margin-left:100px"></button>
+        </a>
+        <a href="/workout_select">
+            <button style="position:relative; padding-left:360px; padding-top:300px; margin-top:110px; margin-left:20px"></button>
+        </a>
+        <a href="/workout_select">
+            <button style="position:relative; padding-left:360px; padding-top:300px; margin-top:110px; margin-left:20px"></button>
+        </a>
+    </div>
+    <div>
+        <a href="/workout_select">
+            <button style="position:relative; padding-left:360px; padding-top:300px; margin-top:20px; margin-left:100px"></button>
+        </a>
+        <a href="/workout_select">
+            <button style="position:relative; padding-left:360px; padding-top:300px; margin-top:20px; margin-left:20px"></button>
+        </a>
+        <a href="/workout_select">
+            <button style="position:relative; padding-left:360px; padding-top:300px; margin-top:20px; margin-left:20px"></button>
+        </a>
+    </div>
+    <div>
+        <h1 style="position:relative; color:black; padding-top:2700px">Hello</h1>
+    </div>
+{%endblock%} 

@@ -1,0 +1,53 @@
+{%extends "base.html"%}
+
+
+{%block title%} 
+    Select Workout
+{%endblock%}
+
+
+
+{%block head1%} 
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("{{url_for('static', filename='Frame 3.png')}}");
+
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top:20px;
+    }
+    input {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+    }
+</style>
+{%endblock%}
+
+{%block body%} 
+<form action="/select_workout" method="post">
+<div>
+    
+        <input type="submit" style="position:relative; padding-left:280px; padding-top:200px; margin-top:100px; margin-left:90px" name="workout" value="fullbody">
+        <input type="submit" style="position:relative; padding-left:280px; padding-top:200px; margin-top:100px; margin-left:20px" name="workout" value="streatching">
+        <input type="submit" style="position:relative; padding-left:280px; padding-top:200px; margin-top:100px; margin-left:20px" name="workout" value="yoga">
+
+</div>
+<div>
+    
+        <input type="submit" style="position:relative; padding-left:280px; padding-top:200px; margin-top:20px; margin-left:90px" name="workout" value="legs">
+        <input type="submit" style="position:relative; padding-left:280px; padding-top:200px; margin-top:20px; margin-left:20px" name="workout" value="lifiting" >
+        <input type="submit" style="position:relative; padding-left:280px; padding-top:200px; margin-top:20px; margin-left:20px" name="workout" value="arms" >
+    
+</div>
+</form>
+<div>
+    <h1 style="position:relative; color:black; padding-top:200px">Hello</h1>
+</div>
+{%endblock%} 
+

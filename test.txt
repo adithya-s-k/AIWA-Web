@@ -1,0 +1,23 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC5tgAn81q6YrKfLJlLFO9c0bjfCEEy884",
+    authDomain: "workout-b7013.firebaseapp.com",
+    projectId: "workout-b7013",
+    storageBucket: "workout-b7013.appspot.com",
+    messagingSenderId: "909360379159",
+    appId: "1:909360379159:web:029c4e01af8e2cbb4cf352",
+    measurementId: "G-GWRFFDF5BF"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>

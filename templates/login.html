@@ -1,0 +1,77 @@
+{%extends "base.html"%}
+
+{%block title%}WorkOut{%endblock%} 
+
+{%block head1%}
+
+<style>
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 500px;
+    height: 350px;
+  
+    margin-top: 5px;
+    padding-top: 20px;
+  
+    border-radius: 12px;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    background: #1f1f1f;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+  }
+</style>
+
+{%endblock%}
+
+{%block body%} 
+<div class="lol">
+  
+  <form style="
+  position: absolute;
+  top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 300px;
+    height: 350px;
+  
+    margin-top: 5px;
+    padding-top: 20px;
+  
+    border-radius: 12px;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    background: #25AB75;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199)" action="/login_user" method="post">
+    <h1 style="text-align: center; margin-top: 2px; font-weight:1000;">Login</h1>
+    
+        <div class="mb-3"  >
+          <label for="exampleInputEmail1" class="form-label" style="color:black; font-weight: bold;">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label" style="color:black; font-weight: bold;">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+        </div>
+        
+        <div style="text-align:center"><button type="submit" class="btn btn-primary" style=" background-color:#13583C; border: none;">Login</button></div>
+        
+      </form>
+    </div>
+    
+    
+
+{%endblock%} 
