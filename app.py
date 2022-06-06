@@ -17,7 +17,14 @@ weight = 60
 
 app=Flask(__name__)
 app.secret_key="9741709968"
-config={<put in your config here>}
+config= {"apiKey": "AIzaSyBUH2bURnl4q0xKzqNh_ZVJsMJ7sTwh440",
+    "authDomain": "aiwaweb-a8e07.firebaseapp.com",
+    "projectId": "aiwaweb-a8e07",
+    "storageBucket": "aiwaweb-a8e07.appspot.com",
+    "messagingSenderId": "362163424943",
+    "appId": "1:362163424943:web:726f9287e60fbb6f28ce5a",
+    "measurementId": "G-L8CZRPKPXN",
+    "databaseURL":""}
 firebase=pyrebase.initialize_app(config)
 
 auth=firebase.auth()
@@ -871,6 +878,9 @@ def capture_frame_arms():
             
     cap.release()
     cv2.destroyAllWindows()
+    
+    
+    # hello world
     
     # ///////////////////////////////////////////////
     cap = cv2.VideoCapture('./assets/Countdown5.mp4')
