@@ -75,7 +75,10 @@ Using these coordinates we can calculate the angle, distance between the points.
 Thus we can set parameters for different exercises depending on the angle between the joints and calculate the number of reps a person is doing in each exercise as show below
 \
 We have also used a pre trained model from Keras.Using this we are able to detect different yoga poses a person is doing as shown below.
-
+\
+Preview of the website
+\
+![HomePage Preview](https://github.com/adithya-s-k/AIWA-Web/blob/master/static/Frame_home.png)
 Here is the [Project Video](https://youtu.be/GDy-AMGFmwc) This video is of the offline version of this app
 
 ## Advantage over existing solutions.
