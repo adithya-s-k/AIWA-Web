@@ -1,5 +1,6 @@
 # AIWA - AI assisted Workout Assistant 
 
+[![videolink](https://github.com/adithya-s-k/AIWA-Web/blob/master/assets/youtube_banner.png)](https://youtu.be/GDy-AMGFmwc)
 ### Introduction of the idea:
 
 Especially during Covid and lockdown, keeping fit has become a
